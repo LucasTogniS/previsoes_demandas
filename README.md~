@@ -19,25 +19,13 @@ git clone <URL_DO_REPOSITORIO>
 cd previsao-demanda
 ```
 
-### 2️⃣ Criar um Ambiente Virtual
-```sh
-python -m venv venv
-source venv/bin/activate  # Linux/macOS
-venv\Scripts\activate     # Windows
-```
-
-### 3️⃣ Instalar as Dependências
-```sh
-pip install -r requirements.txt
-```
-
-### 4️⃣ Iniciar o Servidor FastAPI
+### 2️⃣ Iniciar o Servidor FastAPI
 ```sh
 uvicorn api:app --reload
 ```
 A API ficará acessível em **http://127.0.0.1:8000**.
 
-### 5️⃣ Testar no Swagger UI
+### 3️⃣ Testar 
 Acesse **http://127.0.0.1:8000/docs** para testar os endpoints.
 
 ---
@@ -84,7 +72,7 @@ Isso torna a previsão mais precisa do que métodos simples de regressão!
 📌 Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/lucas-de-togni/)
 
 ---
-### 🌟 Gostou? Deixe uma ⭐ no repositório!
+
 
  
  

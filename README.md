@@ -16,7 +16,7 @@ Este projeto utiliza **Inteligência Artificial (IA)** para prever demandas futu
 ### 1️⃣ Clonar o Repositório
 ```sh
 git clone <URL_DO_REPOSITORIO>
-cd previsao-demanda
+cd previsoes_demandas
 ```
 
 ### 2️⃣ Iniciar o Servidor FastAPI
